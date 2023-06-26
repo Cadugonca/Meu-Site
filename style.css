@@ -1,0 +1,172 @@
+*{
+  margin:0;
+background-color: rgba(122, 79, 79, 0);
+color: beige;
+}
+
+#MenuSuperior{
+  background-image: url(./imagens/Fundo.png);
+}
+
+/* Define a largura da imagem */
+#logo {
+    width: 300px;
+    height: 100px;
+    margin: 30px;
+    margin-left: 500px;
+    cursor: pointer;
+  }
+
+  #TítuloNome{
+    padding-top: 25px;
+    font-size: 36px;
+    font-family: 'Ysabeau SC', sans-serif;
+    text-align: center;
+    color:rgb(255, 255, 255);
+  }
+  
+  #descrição{
+    text-align: center;
+    font-size: 150%;
+    color:white;
+    padding-bottom: 180px;
+  }
+
+  #PontosP{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #EAECE5;
+    display: grid;  
+    grid-auto-flow: column;
+    columns: auto;
+  }
+
+  .icone{
+    margin-left: 100px;
+    padding: 10px;
+  }
+
+  .textoinformativo{
+    color: black;
+    display: flex;
+    align-items: center;
+  }
+
+  #carrossel{
+    background-color: darkblue;
+    padding: 25px;
+  }
+
+  #TítuloCarrossel{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 20px;
+  }
+
+  #profissional{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+  }
+
+  .imgprof{
+    margin-left: 30%;
+    width: 175px;
+    height: 175px;
+  }
+
+  #com{
+    display: none;
+  }
+
+  #resp{
+    display: none;
+  }
+
+#evo{
+  display: none;
+}
+
+#setadireita{
+  margin-top: 15%;
+  margin-left: 50%;
+}
+
+#setaesquerda{
+  margin-top: 40%;
+  margin-left: 35%;
+}
+
+.seta{
+  cursor:pointer;
+}
+
+.seta:hover{
+  transform: translateY(-7px);
+  transition-duration: 0.5s
+}
+
+.imgprof:hover{
+  transform: translateY(-7px);
+  transition-duration: 0.5s
+}
+
+#titulocontato{
+  color: black;
+  font-size: 25px;
+  padding-bottom: 25px;
+}
+
+#CONTATO{
+  padding: 25px;
+  text-align: center;
+    }
+
+    input{
+      color: black;
+      width: 300px;
+      height: 30px;
+      background-color: #EAECE5;
+      margin: 15px;
+      border: 0;
+      border-radius: 5px;
+      padding-left: 10px;
+    }
+
+    .bot{
+      width: 250px;
+      height: 40px;
+      margin: 15px;
+      border: 50px;
+      border-radius: 5px;
+      padding-left: 10px;
+      font-weight: bolder;
+    }
+
+    .bot:hover{
+      transform: translateY(-7px);
+      transition-duration: 0.5s;
+      box-shadow: 0px 15px 20px;
+    }
+
+    #botaoemail{
+      background-color: darkcyan;
+      cursor:pointer;
+    }
+
+    #botaowpp{
+      background-color: green;
+      cursor:pointer;
+    }
+
+   #botaoemail:hover{
+      background-color: rgb(6, 95, 95);
+    }
+    #botaowpp:hover{
+      background-color: rgb(9, 82, 9);
+    }
+
+
+
